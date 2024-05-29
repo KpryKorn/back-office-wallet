@@ -15,14 +15,15 @@ export default async function Page() {
   const data = await getAllPasses();
   return (
     <>
-      <h1 className="text-2xl mb-4 font-semibold">Dashboard</h1>
       <table className="min-w-full bg-white text-sm">
         <thead className="text-left">
           <tr>
             <th className="py-2 px-4 border-b border-slate-300">ID</th>
             <th className="py-2 px-4 border-b border-slate-300">Prénom</th>
             <th className="py-2 px-4 border-b border-slate-300">Nom</th>
-            <th className="py-2 px-4 border-b border-slate-300">N° Sécu</th>
+            <th className="py-2 px-4 border-b border-slate-300">
+              N° Sécurité Sociale
+            </th>
             <th className="py-2 px-4 border-b border-slate-300">N° Adhérent</th>
             <th className="py-2 px-4 border-b border-slate-300">N° AMC</th>
             <th className="py-2 px-4 border-b border-slate-300">Type Conv</th>
