@@ -1,7 +1,12 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div>Hello World</div>
-    </main>
+    <>
+      <div className="my-6 md:my-12">
+        Hello WorldHello WorldHello WorldHello World Hello World Hello World
+        Hello World Hello World Hello World Hello World Hello World Hello World
+        Hello World Hello World Hello World Hello World Hello World Hello World
+        Hello World Hello World Hello World Hello World Hello World Hello World
+      </div>
+    </>
   );
 }
