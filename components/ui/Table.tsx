@@ -1,3 +1,5 @@
+"use client";
+
 import { TPass } from "@/types";
 
 interface TableProps {
