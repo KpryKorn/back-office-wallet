@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className + " container antialiased"}>
+        <main className="mx-auto my-6 md:my-12">{children}</main>
+      </body>
     </html>
   );
 }
